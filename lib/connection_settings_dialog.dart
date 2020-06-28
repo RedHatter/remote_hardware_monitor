@@ -49,9 +49,7 @@ class _ConnectionSettingsDialogState extends State<ConnectionSettingsDialog> {
               ])),
       actions: [
         FlatButton(child: Text('Done'), onPressed: submit),
-        FlatButton(
-            child: Text('Cancel'),
-            onPressed: Navigator.of(context).pop),
+        FlatButton(child: Text('Cancel'), onPressed: Navigator.of(context).pop),
       ],
     );
   }
